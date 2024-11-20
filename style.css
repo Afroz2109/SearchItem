@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.navbar h1 {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchItem {
+    width: 40%;
+    border-radius: 12px;
+    outline: lightblue;
+    border: none;
+    border-bottom: 1px solid rgb(98, 198, 232);
+}
+
+.results{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem;
+    padding: 1rem;
+    margin-left: 7%;
+}
+.results .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 1rem;
+    width: 60%;    
+}
+.image{
+    height: 20vh;
+    width: 45%;  
+    margin-bottom: 5px;
+}
+
+.price{
+    color: rgb(78, 78, 248);
+    margin-top: 5px;
+}
+
+.BuyButton {
+    border: none;
+    border-radius: 6px;
+    background-color: tomato;
+    width: 36%;
+    margin-top: 1.5%;
+    padding: 0.2rem;
+    margin-top: 5px;
+}
+.title {
+    font-family: sans-serif;
+}
